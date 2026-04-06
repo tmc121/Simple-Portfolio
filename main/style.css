@@ -63,7 +63,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #008cff;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -240,7 +240,7 @@ h2 {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: #005eab;
   border-radius: 3mm;
   top: 50%;
   left:50%;
