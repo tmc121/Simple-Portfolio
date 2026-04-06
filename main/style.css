@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #008cff;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -63,7 +63,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #008cff;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -81,6 +81,7 @@ h2 {
   position: relative;
 }
 
+
 /* Used in the About Me sections */
 
 .container {
@@ -92,12 +93,13 @@ h2 {
 .about-me {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #008cff;
 }
 
 #about-me p {
@@ -107,10 +109,11 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width: 200px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+  border-radius: 5px;
 }
 
 /* Skills */
@@ -124,13 +127,26 @@ h2 {
 .skill {
   border: 1px solid gray;
   display: block;
-  border-radius: 6px;
+  border-radius: 5px;
   text-align: center;
   margin: 50px;
   padding: 10px;
   width: 2in;
   font-size: 20px;
   box-shadow: 0 3px 10px gray;
+}
+
+.skill:hover {
+  border: 2px solid #008cff;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  width: 2in;
+  font-size: 20px;
+  box-shadow: 0 3px 10px #008cff;
+  cursor: pointer;
 }
 
 .skill img {
@@ -205,7 +221,7 @@ h2 {
   width: 21.875rem;
   padding: 1rem;
   background-color: #fff;
-  border-radius: 11px;
+  border-radius: 5px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
@@ -214,8 +230,23 @@ h2 {
   height:150px
 }
 
+.recommendation:hover {
+  font-style: italic;
+  text-align: left;
+  width: 21.875rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px #008cff;
+  padding: 20px;
+  margin: 10px;
+  border:2px solid #008cff;
+  font-size: 18px;
+  height:150px;
+}
+
 .recommendation span {
-  color: #7600bc;
+  color: #008cff;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -226,7 +257,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #008cff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,8 +271,8 @@ h2 {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
-  border-radius: 3mm;
+  background-color: #005eab;
+  border-radius: 5px;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
@@ -257,10 +288,10 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #008cff;
+  color: #008cff;
   display: block;
-  border-radius: 6px;
+  border-radius: 5px;
   text-align: center;
   margin: 50px;
   padding: 10px;
@@ -271,8 +302,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #008cff;
+  color: #008cff;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -303,10 +334,10 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #008cff;
+  color: #008cff;
   display: block;
-  border-radius: 6px;
+  border-radius: 5px;
   text-align: center;
   margin: 50px;
   padding: 10px;
@@ -315,11 +346,20 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #008cff;
+  border: 1px solid #008cff;
   color: #fff;
   display: block;
-  border-radius: 6px;
+  border-radius: 5px;
   text-align: center;
   cursor: pointer;
+}
+
+.footer_card{
+  background-color: #008cff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
