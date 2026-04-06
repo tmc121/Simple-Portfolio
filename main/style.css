@@ -81,6 +81,7 @@ h2 {
   position: relative;
 }
 
+
 /* Used in the About Me sections */
 
 .container {
@@ -92,6 +93,7 @@ h2 {
 .about-me {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #about-me h1 {
