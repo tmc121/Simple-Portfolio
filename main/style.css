@@ -107,10 +107,11 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width: 200px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+  border-radius: 5px;
 }
 
 /* Skills */
@@ -131,6 +132,19 @@ h2 {
   width: 2in;
   font-size: 20px;
   box-shadow: 0 3px 10px gray;
+}
+
+.skill:hover {
+  border: 2px solid #008cff;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  width: 2in;
+  font-size: 20px;
+  box-shadow: 0 3px 10px #008cff;
+  cursor: pointer;
 }
 
 .skill img {
@@ -214,6 +228,21 @@ h2 {
   height:150px
 }
 
+.recommendation:hover {
+  font-style: italic;
+  text-align: left;
+  width: 21.875rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px #008cff;
+  padding: 20px;
+  margin: 10px;
+  border:2px solid #008cff;
+  font-size: 18px;
+  height:150px;
+}
+
 .recommendation span {
   color: #008cff;
   font-size: 20px;
@@ -241,7 +270,7 @@ h2 {
 .popup {
   width:400px;
   background-color: #005eab;
-  border-radius: 3mm;
+  border-radius: 5px;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
